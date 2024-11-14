@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        tiny: '422px',
+        tiny: '430px',
       },
       colors: {
         'dark-nav': 'hsl(210, 8.5%, 17.6%)',
