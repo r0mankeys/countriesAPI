@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #f7fafc;
+  color: #1f2022;
+  position: relative;
+}
+
+body {
+  min-block-size: 100vh;
+}
+
+body.light {
+  background-color: #f7fafc;
+  color: #1f2022;
+}
+
+body.dark {
+  background-color: #1f2022;
+  color: #f7fafc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #1f2022;
+    color: #f7fafc;
+  }
+
+  body {
+    background-color: #1f2022;
+    color: #f7fafc;
+  }
+}
