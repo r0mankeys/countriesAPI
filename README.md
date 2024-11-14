@@ -1,6 +1,6 @@
 # Countries API 🇦🇶
 
-[![My Skills](https://skillicons.dev/icons?i=vite,bun,react,typescript,tailwind)](https://skillicons.dev)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vite,bun,react,typescript,tailwind,reactquery,)
 
 ## Description
 
