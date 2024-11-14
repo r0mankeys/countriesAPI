@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# Countries API 🇦🇶
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![My Skills](https://skillicons.dev/icons?i=vite,bun,react,typescript,tailwind)](https://skillicons.dev)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a straight forward project that uses the [REST Countries API](https://restcountries.com/) to display information about countries.
 
-## Expanding the ESLint configuration
+Heavly inspired by the [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Part of a larger project "APIgarden" where I will be using different APIs to create small projects.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+- [x] Search for a country
+- [x] Filter countries by region
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Acknowledgements
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
-```
+- [Lucca Rodrigues](https://blaring.net) Inspired me to add loading states
